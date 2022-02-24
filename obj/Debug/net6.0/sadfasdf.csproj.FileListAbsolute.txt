@@ -1,0 +1,15 @@
+C:\Users\Bendras\Desktop\sadfasdf\bin\Debug\net6.0\sadfasdf.exe
+C:\Users\Bendras\Desktop\sadfasdf\bin\Debug\net6.0\sadfasdf.deps.json
+C:\Users\Bendras\Desktop\sadfasdf\bin\Debug\net6.0\sadfasdf.runtimeconfig.json
+C:\Users\Bendras\Desktop\sadfasdf\bin\Debug\net6.0\sadfasdf.dll
+C:\Users\Bendras\Desktop\sadfasdf\bin\Debug\net6.0\ref\sadfasdf.dll
+C:\Users\Bendras\Desktop\sadfasdf\bin\Debug\net6.0\sadfasdf.pdb
+C:\Users\Bendras\Desktop\sadfasdf\obj\Debug\net6.0\sadfasdf.csproj.AssemblyReference.cache
+C:\Users\Bendras\Desktop\sadfasdf\obj\Debug\net6.0\sadfasdf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bendras\Desktop\sadfasdf\obj\Debug\net6.0\sadfasdf.AssemblyInfoInputs.cache
+C:\Users\Bendras\Desktop\sadfasdf\obj\Debug\net6.0\sadfasdf.AssemblyInfo.cs
+C:\Users\Bendras\Desktop\sadfasdf\obj\Debug\net6.0\sadfasdf.csproj.CoreCompileInputs.cache
+C:\Users\Bendras\Desktop\sadfasdf\obj\Debug\net6.0\sadfasdf.dll
+C:\Users\Bendras\Desktop\sadfasdf\obj\Debug\net6.0\ref\sadfasdf.dll
+C:\Users\Bendras\Desktop\sadfasdf\obj\Debug\net6.0\sadfasdf.pdb
+C:\Users\Bendras\Desktop\sadfasdf\obj\Debug\net6.0\sadfasdf.genruntimeconfig.cache
