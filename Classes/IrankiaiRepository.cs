@@ -7,8 +7,47 @@ namespace Sandelis{
             ListToXML.AddIrankiai(lirankis);
         }
 
-        public void Update(){
-
+        public void GetByName(string name){
+            for(int i = 0; i < lirankis.Count; i++)
+            {
+                if(name == lirankis[i].Name)
+                {
+                    lirankis[i].Output();
+                }
+            }
+        }
+        public bool Update(Guid GUID, int choice, string newinfo){
+            bool updated = false;
+            for(int i = 0; i < lirankis.Count; i++)
+            {
+                if(GUID == lirankis[i].GUID)
+                {
+                    switch(choice)
+                    {
+                        case 1:
+                            lirankis[i].Name = newinfo;
+                            break;
+                        case 2:
+                            lirankis[i].SerialNumber = uint.Parse(newinfo);
+                            break;
+                        case 3:
+                            lirankis[i].Quanity = int.Parse(newinfo);
+                            break;
+                        case 4:
+                            lirankis[i].Weight = float.Parse(newinfo);
+                            break;
+                        case 5:
+                            lirankis[i].Capacity = float.Parse(newinfo);
+                            break;
+                        case 8:
+                            lirankis[i].PurchaseCost = float.Parse(newinfo);
+                            break;  
+                    }
+                updated = true;
+                }
+            }
+            ListToXML.AddIrankiai(lirankis);
+            return updated;
         }
         public void Output(){
             foreach(Irankiai irankis in lirankis)

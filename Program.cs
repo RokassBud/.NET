@@ -19,12 +19,9 @@
             bool finished = true;
             IrankiaiRepository irankiairep = new IrankiaiRepository();
             PrekeRepository prekerep = new PrekeRepository();
+            UI ui = new UI();
             do{
-                Console.WriteLine("1. Sandelyje esantys daiktai");
-                Console.WriteLine("2. Prideti iranki");
-                Console.WriteLine("3. Prideti preke");
-                Console.WriteLine("4. Istrinti daikta ");
-
+                ui.Menu();
                 int option = Menu();
                 switch(option)
                 {
@@ -41,20 +38,13 @@
                         prekerep.Insert(kpreke);
                         break;
                     case 4: 
-                        Guid GUID;
-                        bool found = false;
-                        bool ifound = false;
-                        Console.WriteLine("Iveskite objekto GUID istrynimui");
-                        Guid.TryParse(Console.ReadLine(), out GUID);
-                        found = prekerep.Delete(GUID);
-                        if(found == false)
-                        {
-                            ifound = irankiairep.Delete(GUID);
-                        }
-                        if(found == false && ifound == false)
-                        {
-                            Console.WriteLine("TOKIO OBJEKTO NERA!");
-                        }
+                        ui.MenuDelete(prekerep,irankiairep);
+                        break;
+                    case 5:
+                        ui.MenuUpdate(prekerep,irankiairep);
+                        break;
+                    case 6:
+                        ui.MenuGetByName(prekerep,irankiairep);
                         break;
                 }
 

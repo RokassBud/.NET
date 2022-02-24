@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?><ArrayOfPreke xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<?xml version="1.0" encoding="utf-8"?><ArrayOfPreke xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Preke><GUID>f86eee92-ba4b-4d6a-a488-5c9f01ef56aa</GUID><Name>Obuolys</Name><SerialNumber>11</SerialNumber><Quanity>55</Quanity><Weight>99</Weight><Capacity>44</Capacity><SellingCost>88</SellingCost><PrimeCost>22</PrimeCost></Preke></ArrayOfPreke>
